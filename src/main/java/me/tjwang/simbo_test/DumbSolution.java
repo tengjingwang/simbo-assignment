@@ -1,7 +1,7 @@
 package me.tjwang.simbo_test;
 
-public class DumbSolution extends AbstractFindTwoNumberThatFits{
-    
+public class DumbSolution implements IfceFindTwoNumberThatFits{
+
     // Solution assumes elements in array could be zero or negative
     // Dumb solution, O(n^2)
     public int[] findTwoNumberThatFits(int[] arr, int target) {

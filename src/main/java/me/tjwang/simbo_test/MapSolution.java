@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class MapSolution extends AbstractFindTwoNumberThatFits{
+public class MapSolution implements IfceFindTwoNumberThatFits{
     // O(n) solution by using set and find the complement
     public int[] findTwoNumberThatFits(int[] arr, int target) {
         Map<Integer, Integer> map = new DefaultHashMap<Integer, Integer>(0);

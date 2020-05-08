@@ -4,9 +4,9 @@ import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-public abstract class AbstractFindTwoNumberThatFitsTest
+public abstract class IfceFindTwoNumberThatFitsTest
 {
-    protected AbstractFindTwoNumberThatFits instance;
+    protected IfceFindTwoNumberThatFits instance;
 
     public int[] findTwoNumberThatFits(int[] arr, int target) {
         return this.instance.findTwoNumberThatFits(arr, target);
